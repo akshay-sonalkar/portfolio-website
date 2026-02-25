@@ -3,7 +3,7 @@ import { Button } from './ui/button';
 import { Input } from './ui/input';
 import { Textarea } from './ui/textarea';
 import { Card, CardContent } from './ui/card';
-import { Mail, Linkedin, MapPin, Send } from 'lucide-react';
+import { Mail, Linkedin, MapPin, Send, Phone } from 'lucide-react';
 import { consultantInfo } from '../mock';
 import { useToast } from '../hooks/use-toast';
 
@@ -12,6 +12,7 @@ const Contact = () => {
   const [formData, setFormData] = useState({
     name: '',
     email: '',
+    phone: '',
     company: '',
     message: ''
   });
@@ -39,7 +40,7 @@ const Contact = () => {
             title: "Message Sent! (Demo Mode)",
             description: "Configure Google Apps Script to enable real submissions. Check GOOGLE_SHEETS_SETUP.md",
           });
-          setFormData({ name: '', email: '', company: '', message: '' });
+          setFormData({ name: '', email: '', phone: '', company: '', message: '' });
           setIsSubmitting(false);
         }, 1000);
         return;
@@ -49,6 +50,7 @@ const Contact = () => {
       const formDataToSend = new FormData();
       formDataToSend.append('name', formData.name);
       formDataToSend.append('email', formData.email);
+      formDataToSend.append('phone', formData.phone);
       formDataToSend.append('company', formData.company);
       formDataToSend.append('message', formData.message);
       formDataToSend.append('timestamp', new Date().toISOString());
@@ -65,7 +67,7 @@ const Contact = () => {
         description: "Thank you for reaching out. I'll get back to you within 24 hours!",
       });
       
-      setFormData({ name: '', email: '', company: '', message: '' });
+      setFormData({ name: '', email: '', phone: '', company: '', message: '' });
     } catch (error) {
       console.error('Form submission error:', error);
       toast({
@@ -84,6 +86,12 @@ const Contact = () => {
       label: 'Email',
       value: consultantInfo.email,
       link: `mailto:${consultantInfo.email}`
+    },
+    {
+      icon: Phone,
+      label: 'Phone',
+      value: consultantInfo.phone,
+      link: `tel:${consultantInfo.phone}`
     },
     {
       icon: Linkedin,
@@ -188,19 +196,37 @@ const Contact = () => {
                     </div>
                   </div>
 
-                  <div className="space-y-2">
-                    <label htmlFor="company" className="text-sm font-semibold text-slate-900">
-                      Company / Project
-                    </label>
-                    <Input
-                      id="company"
-                      name="company"
-                      type="text"
-                      placeholder="Your Company Name"
-                      value={formData.company}
-                      onChange={handleChange}
-                      className="border-slate-300 focus:border-emerald-600 focus:ring-emerald-600"
-                    />
+                  <div className="grid sm:grid-cols-2 gap-6">
+                    <div className="space-y-2">
+                      <label htmlFor="phone" className="text-sm font-semibold text-slate-900">
+                        Mobile Number *
+                      </label>
+                      <Input
+                        id="phone"
+                        name="phone"
+                        type="tel"
+                        placeholder="+91 98765 43210"
+                        value={formData.phone}
+                        onChange={handleChange}
+                        required
+                        className="border-slate-300 focus:border-emerald-600 focus:ring-emerald-600"
+                      />
+                    </div>
+
+                    <div className="space-y-2">
+                      <label htmlFor="company" className="text-sm font-semibold text-slate-900">
+                        Company / Project
+                      </label>
+                      <Input
+                        id="company"
+                        name="company"
+                        type="text"
+                        placeholder="Your Company Name"
+                        value={formData.company}
+                        onChange={handleChange}
+                        className="border-slate-300 focus:border-emerald-600 focus:ring-emerald-600"
+                      />
+                    </div>
                   </div>
 
                   <div className="space-y-2">
