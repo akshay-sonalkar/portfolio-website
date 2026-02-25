@@ -9,7 +9,7 @@ export const consultantInfo = {
   phone: "+91 98765 43210",
   linkedin: "www.linkedin.com/in/akshay-sonalkar",
   location: "Solapur, Maharashtra, India",
-  image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop"
+  image: "/akshay-photo.jpg"
 };
 
 export const services = [
