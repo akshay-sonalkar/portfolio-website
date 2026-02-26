@@ -6,9 +6,9 @@ export const consultantInfo = {
   tagline: "Enterprise-Level Expertise for Your Business Growth",
   description: "Bringing 10+ years of experience from MNCs and product-based companies to help your business establish a powerful digital presence.",
   email: "sonalkarakshay.solapur@gmail.com",
-  phone: "+91 98765 43210",
+  phone: "+91 9448428031",
   linkedin: "www.linkedin.com/in/akshay-sonalkar",
-  location: "Solapur, Maharashtra, India",
+  location: "Pune, Maharashtra, India",
   image: "/akshay-photo.jpg"
 };
 
