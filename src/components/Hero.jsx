@@ -75,7 +75,7 @@ const Hero = () => {
               <div className="absolute -inset-4 bg-emerald-100 rounded-2xl transform rotate-3"></div>
               <img
                 src={consultantInfo.image}
-                alt="Akshay Sonalkar - Website Developer for Small Business in Solapur - Clinic, Hotel, Bank Website Development"
+                alt="Akshay Sonalkar - Website Developer for Small Business - Clinic, Hotel, Bank, Restaurant Website Development"
                 className="relative rounded-2xl shadow-2xl w-full h-auto object-cover"
               />
             </div>

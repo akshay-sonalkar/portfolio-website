@@ -11,30 +11,24 @@ const SEO = () => {
         "@id": "https://akshaysonalkar.com/#business",
         "name": "Akshay Sonalkar Web Development",
         "image": "https://akshaysonalkar.com/akshay-photo.jpg",
-        "description": "Professional website development services for small businesses including clinics, hotels, banks, restaurants, and retail stores in Solapur and Maharashtra.",
+        "description": "Professional website development services for small businesses including clinics, hotels, banks, restaurants, and retail stores worldwide.",
         "url": "https://akshaysonalkar.com",
         "telephone": "+919448428031",
         "email": "sonalkarakshay.solapur@gmail.com",
         "address": {
           "@type": "PostalAddress",
-          "streetAddress": "Solapur",
-          "addressLocality": "Solapur",
+          "addressLocality": "Pune",
           "addressRegion": "Maharashtra",
           "addressCountry": "IN"
         },
-        "geo": {
-          "@type": "GeoCoordinates",
-          "latitude": "17.6599",
-          "longitude": "75.9064"
-        },
         "areaServed": [
           {
-            "@type": "City",
-            "name": "Solapur"
+            "@type": "Country",
+            "name": "India"
           },
           {
-            "@type": "State",
-            "name": "Maharashtra"
+            "@type": "Place",
+            "name": "Worldwide"
           }
         ],
         "priceRange": "₹₹",
@@ -61,13 +55,13 @@ const SEO = () => {
         "name": "Akshay Sonalkar",
         "image": "https://akshaysonalkar.com/akshay-photo.jpg",
         "jobTitle": "Full Stack Developer & Web Consultant",
-        "description": "Full Stack Developer with 10+ years of experience helping small businesses establish their online presence.",
+        "description": "Full Stack Developer with 10+ years of experience helping small businesses worldwide establish their online presence.",
         "url": "https://akshaysonalkar.com",
         "email": "sonalkarakshay.solapur@gmail.com",
         "telephone": "+919448428031",
         "address": {
           "@type": "PostalAddress",
-          "addressLocality": "Solapur",
+          "addressLocality": "Pune",
           "addressRegion": "Maharashtra",
           "addressCountry": "IN"
         },
@@ -82,8 +76,8 @@ const SEO = () => {
           "@id": "https://akshaysonalkar.com/#business"
         },
         "areaServed": {
-          "@type": "State",
-          "name": "Maharashtra"
+          "@type": "Place",
+          "name": "Worldwide"
         },
         "hasOfferCatalog": {
           "@type": "OfferCatalog",
@@ -137,7 +131,7 @@ const SEO = () => {
         "@id": "https://akshaysonalkar.com/#website",
         "url": "https://akshaysonalkar.com",
         "name": "Akshay Sonalkar - Website Development for Small Business",
-        "description": "Professional website development services for small businesses in Solapur and Maharashtra",
+        "description": "Professional website development services for small businesses worldwide",
         "publisher": {
           "@id": "https://akshaysonalkar.com/#person"
         },

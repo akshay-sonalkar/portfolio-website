@@ -3,12 +3,12 @@
 export const consultantInfo = {
   name: "Akshay Sonalkar",
   title: "Website Developer for Small Business | Clinics, Hotels, Banks & More",
-  tagline: "Affordable Website Development for Small Businesses in Solapur & Maharashtra",
-  description: "Helping small businesses like clinics, hotels, banks, restaurants, and retail stores establish their online presence with professional, affordable websites. 10+ years of experience delivering results for local businesses across Maharashtra.",
+  tagline: "Professional Website Development for Small Businesses Worldwide",
+  description: "Helping small businesses like clinics, hotels, banks, restaurants, and retail stores establish their online presence with professional, affordable websites. 10+ years of experience delivering results for businesses globally.",
   email: "sonalkarakshay.solapur@gmail.com",
   phone: "+91 9448428031",
   linkedin: "www.linkedin.com/in/akshay-sonalkar",
-  location: "Solapur, Maharashtra, India",
+  location: "Pune, Maharashtra, India",
   image: "/akshay-photo.jpg"
 };
 
@@ -16,44 +16,44 @@ export const services = [
   {
     id: 1,
     title: "Clinic & Hospital Website Development",
-    description: "Professional websites for medical clinics, dental practices, and hospitals in Solapur. Include appointment booking, doctor profiles, and patient information systems.",
+    description: "Professional websites for medical clinics, dental practices, and hospitals. Include appointment booking, doctor profiles, patient portals, and HIPAA-compliant security.",
     icon: "Code",
     features: ["Online Appointments", "Doctor Profiles", "Patient Portal", "Mobile Responsive"]
   },
   {
     id: 2,
     title: "Hotel & Restaurant Websites",
-    description: "Attractive websites for hotels, resorts, and restaurants with online booking, menu display, and table reservations for businesses in Maharashtra.",
+    description: "Attractive websites for hotels, resorts, and restaurants with online booking, menu display, table reservations, and guest review systems.",
     icon: "Settings",
     features: ["Online Booking", "Gallery & Menu", "Reservation System", "Google Maps Integration"]
   },
   {
     id: 3,
     title: "Retail & E-Commerce Stores",
-    description: "Complete online store solutions for retail shops, boutiques, and small businesses. Accept payments via Razorpay, PayU, and other Indian payment gateways.",
+    description: "Complete online store solutions for retail shops, boutiques, and small businesses. Accept payments globally with secure payment gateway integration.",
     icon: "ShoppingCart",
-    features: ["Indian Payment Gateways", "Inventory Management", "Order Tracking", "WhatsApp Integration"]
+    features: ["Payment Gateways", "Inventory Management", "Order Tracking", "WhatsApp Integration"]
   },
   {
     id: 4,
     title: "Bank & Financial Services Websites",
-    description: "Secure, professional websites for banks, NBFCs, insurance agencies, and financial advisors. HTTPS encryption and data security included.",
+    description: "Secure, professional websites for banks, NBFCs, insurance agencies, and financial advisors. Enterprise-grade security with HTTPS encryption included.",
     icon: "Palette",
     features: ["Secure HTTPS", "Loan Calculator", "Contact Forms", "Branch Locator"]
   },
   {
     id: 5,
-    title: "Local SEO & Google My Business",
-    description: "Get found by customers in Solapur and Maharashtra. Optimize your website for local search and rank higher on Google for your business type.",
+    title: "SEO & Google Rankings",
+    description: "Get found by customers searching for your services on Google. Complete SEO optimization, Google My Business setup, and local search ranking.",
     icon: "TrendingUp",
-    features: ["Local SEO", "Google Business Setup", "Google Maps Ranking", "Mobile Optimization"]
+    features: ["SEO Optimization", "Google Business Setup", "Keyword Research", "Analytics Integration"]
   },
   {
     id: 6,
     title: "Website Maintenance & Support",
     description: "Ongoing website management for small businesses. Regular updates, backups, security monitoring, and content changes at affordable monthly rates.",
     icon: "Lightbulb",
-    features: ["Monthly Maintenance", "Security Updates", "Content Changes", "24/7 Support"]
+    features: ["Monthly Maintenance", "Security Updates", "Content Changes", "Technical Support"]
   }
 ];
 
@@ -169,18 +169,18 @@ export const stats = [
 export const faqs = [
   {
     id: 1,
-    question: "How much does a website cost for a small business in Solapur?",
-    answer: "Website costs for small businesses in Solapur start from ₹15,000 for a basic informational website. For clinics and hospitals, prices range from ₹25,000-₹50,000. Hotel websites with booking systems cost ₹40,000-₹80,000. E-commerce websites for retail stores range from ₹50,000-₹2,00,000 depending on features. All prices include mobile-responsive design, basic SEO, and 3 months free support."
+    question: "How much does a website cost for a small business?",
+    answer: "Website costs for small businesses start from ₹15,000 for a basic informational website. For clinics and hospitals, prices range from ₹25,000-₹50,000. Hotel websites with booking systems cost ₹40,000-₹80,000. E-commerce websites for retail stores range from ₹50,000-₹2,00,000 depending on features. All prices include mobile-responsive design, basic SEO, and 3 months free support."
   },
   {
     id: 2,
-    question: "Do you create websites for medical clinics and hospitals in Maharashtra?",
-    answer: "Yes! I specialize in creating professional websites for medical clinics, dental practices, hospitals, and healthcare providers across Maharashtra. Features include online appointment booking, doctor profiles, patient portals, service listings, and Google Maps integration. All medical websites are mobile-friendly and HIPAA-compliant for patient data security."
+    question: "Do you create websites for medical clinics and hospitals?",
+    answer: "Yes! I specialize in creating professional websites for medical clinics, dental practices, hospitals, and healthcare providers. Features include online appointment booking, doctor profiles, patient portals, service listings, and Google Maps integration. All medical websites are mobile-friendly and HIPAA-compliant for patient data security."
   },
   {
     id: 3,
     question: "Can you build a hotel booking website with online payment?",
-    answer: "Absolutely! I create hotel and resort websites with integrated booking systems, room availability calendars, online payment through Razorpay/PayU, photo galleries, and customer review sections. Perfect for hotels, resorts, guest houses, and homestays in Solapur and Maharashtra. Includes WhatsApp integration for instant booking inquiries."
+    answer: "Absolutely! I create hotel and resort websites with integrated booking systems, room availability calendars, secure online payment processing, photo galleries, and customer review sections. Perfect for hotels, resorts, guest houses, and homestays. Includes WhatsApp integration for instant booking inquiries and mobile-responsive design."
   },
   {
     id: 4,
@@ -189,8 +189,8 @@ export const faqs = [
   },
   {
     id: 5,
-    question: "Will my website rank on Google for local searches in Solapur?",
-    answer: "Yes! All websites include basic SEO optimization to help you rank on Google for local searches. I optimize for keywords like 'clinic in Solapur', 'best hotel in Solapur', etc. Services include Google My Business setup, local SEO optimization, mobile optimization, and fast loading speeds. Additional SEO packages available for competitive industries to rank #1 on Google."
+    question: "Will my website rank on Google?",
+    answer: "Yes! All websites include comprehensive SEO optimization to help you rank on Google for relevant searches. I optimize for industry-specific keywords and local search terms. Services include Google My Business setup, on-page SEO, mobile optimization, and fast loading speeds. Additional SEO packages available for competitive industries to achieve top rankings."
   },
   {
     id: 6,
@@ -200,6 +200,6 @@ export const faqs = [
   {
     id: 7,
     question: "Can you help my retail store sell products online?",
-    answer: "Yes! I create complete e-commerce solutions for retail stores, boutiques, grocery stores, and wholesalers in Maharashtra. Features include product catalog, shopping cart, payment gateway (Razorpay, PayU, Paytm), order management, inventory tracking, and customer accounts. Perfect for businesses wanting to expand from offline to online sales."
+    answer: "Yes! I create complete e-commerce solutions for retail stores, boutiques, grocery stores, and wholesalers. Features include product catalog, shopping cart, secure payment gateway integration, order management, inventory tracking, and customer accounts. Perfect for businesses wanting to expand from offline to online sales and reach customers globally."
   }
 ];

@@ -8,12 +8,12 @@ const About = () => {
     {
       icon: Target,
       title: 'Small Business Specialist',
-      description: 'Expert in websites for clinics, hotels, banks, restaurants & retail stores in Maharashtra'
+      description: 'Expert in websites for clinics, hotels, banks, restaurants & retail stores worldwide'
     },
     {
       icon: Zap,
-      title: 'Local SEO Expert',
-      description: 'Get found on Google for local searches in Solapur and surrounding areas'
+      title: 'SEO Expert',
+      description: 'Get found on Google with comprehensive SEO optimization and ranking strategies'
     },
     {
       icon: Users,
@@ -39,12 +39,12 @@ const About = () => {
           <div className="space-y-8">
             <div>
               <h2 className="text-4xl sm:text-5xl font-bold text-slate-900 mb-6">
-                Website Developer for Small Business in Solapur & Maharashtra
+                Website Developer for Small Businesses Worldwide
               </h2>
               <div className="space-y-4 text-lg text-slate-600 leading-relaxed">
                 <p>
                   With over 10 years of experience as a website developer, I specialize in creating
-                  professional, affordable websites for small businesses across Solapur and Maharashtra.
+                  professional, affordable websites for small businesses globally.
                   Whether you run a <strong>medical clinic</strong>, <strong>hotel</strong>, <strong>bank</strong>,
                   <strong>restaurant</strong>, or <strong>retail store</strong>, I help you establish a strong
                   online presence that attracts more customers.
@@ -52,14 +52,14 @@ const About = () => {
                 <p>
                   My expertise spans across healthcare website development for clinics and hospitals,
                   hotel booking websites with online payment systems, e-commerce solutions for retail businesses,
-                  and secure banking websites. I understand the unique needs of small businesses in India and
+                  and secure banking websites. I understand the unique needs of small businesses and
                   deliver solutions that are both cost-effective and results-driven.
                 </p>
                 <p>
                   Having worked with leading MNCs and product companies, I now bring enterprise-level quality
-                  to local businesses at affordable prices. From <strong>Google SEO optimization</strong> to
-                  mobile-responsive design, from <strong>WhatsApp integration</strong> to online payment gateways
-                  like Razorpay - I provide complete digital solutions for your business growth. Whether you're launching a new venture or
+                  to small businesses at affordable prices. From <strong>Google SEO optimization</strong> to
+                  mobile-responsive design, from <strong>WhatsApp integration</strong> to secure online payment gateways
+                  - I provide complete digital solutions for your business growth. Whether you're launching a new venture or
                   scaling an existing business, you get the benefit of world-class development 
                   practices without the enterprise price tag.
                 </p>
