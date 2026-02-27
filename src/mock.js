@@ -2,9 +2,9 @@
 
 export const consultantInfo = {
   name: "Akshay Sonalkar",
-  title: "Website Developer for Small Business | Clinics, Hotels, Banks & More",
+  title: "Website Developer for Small Business | All Industries Welcome",
   tagline: "Professional Website Development for Small Businesses Worldwide",
-  description: "Helping small businesses like clinics, hotels, banks, restaurants, and retail stores establish their online presence with professional, affordable websites. 10+ years of experience delivering results for businesses globally.",
+  description: "Helping small businesses across all industries establish their online presence with professional, affordable websites. From healthcare (clinics, hospitals, dental) to hospitality (hotels, restaurants), professional services (law firms, accounting, real estate), wellness (salons, spas, gyms), education (coaching centers, training institutes), and retail (stores, e-commerce) - 10+ years of experience delivering results for businesses globally.",
   email: "sonalkarakshay.solapur@gmail.com",
   phone: "+91 9448428031",
   linkedin: "www.linkedin.com/in/akshay-sonalkar",
@@ -15,45 +15,45 @@ export const consultantInfo = {
 export const services = [
   {
     id: 1,
-    title: "Clinic & Hospital Website Development",
-    description: "Professional websites for medical clinics, dental practices, and hospitals. Include appointment booking, doctor profiles, patient portals, and HIPAA-compliant security.",
+    title: "Healthcare Websites",
+    description: "Professional websites for clinics, hospitals, dental practices, diagnostic labs, pharmacies, and home healthcare services. Include online appointment booking, doctor profiles, patient portals, and HIPAA-compliant security.",
     icon: "Code",
-    features: ["Online Appointments", "Doctor Profiles", "Patient Portal", "Mobile Responsive"]
+    features: ["Online Appointments", "Doctor Profiles", "Patient Portal", "Lab Reports Access"]
   },
   {
     id: 2,
-    title: "Hotel & Restaurant Websites",
-    description: "Attractive websites for hotels, resorts, and restaurants with online booking, menu display, table reservations, and guest review systems.",
+    title: "Hospitality & Food Services",
+    description: "Attractive websites for hotels, resorts, restaurants, bakeries, catering services, and cafes with online booking, menu display, table reservations, and guest review systems.",
     icon: "Settings",
-    features: ["Online Booking", "Gallery & Menu", "Reservation System", "Google Maps Integration"]
+    features: ["Room/Table Booking", "Menu & Gallery", "Reservation System", "Google Maps Integration"]
   },
   {
     id: 3,
-    title: "Retail & E-Commerce Stores",
-    description: "Complete online store solutions for retail shops, boutiques, and small businesses. Accept payments globally with secure payment gateway integration.",
+    title: "Professional Services",
+    description: "Corporate websites for law firms, chartered accountants, consultants, architects, interior designers, insurance agencies, real estate agencies, and travel agencies. Professional design with service showcases.",
     icon: "ShoppingCart",
-    features: ["Payment Gateways", "Inventory Management", "Order Tracking", "WhatsApp Integration"]
+    features: ["Service Listings", "Case Studies", "Client Testimonials", "Contact Forms"]
   },
   {
     id: 4,
-    title: "Bank & Financial Services Websites",
-    description: "Secure, professional websites for banks, NBFCs, insurance agencies, and financial advisors. Enterprise-grade security with HTTPS encryption included.",
+    title: "Retail & E-Commerce",
+    description: "Complete online store solutions for retail shops, boutiques, jewelers, pharmacies, bookstores, electronics shops, furniture stores, pet shops, and wholesalers. Accept payments with secure gateway integration.",
     icon: "Palette",
-    features: ["Secure HTTPS", "Loan Calculator", "Contact Forms", "Branch Locator"]
+    features: ["Payment Gateways", "Inventory Management", "Order Tracking", "Customer Accounts"]
   },
   {
     id: 5,
-    title: "SEO & Google Rankings",
-    description: "Get found by customers searching for your services on Google. Complete SEO optimization, Google My Business setup, and local search ranking.",
+    title: "Wellness & Personal Care",
+    description: "Booking-enabled websites for salons, spas, beauty parlors, gyms, fitness centers, yoga studios, and physiotherapy centers. Include service menus, online booking, and membership plans.",
     icon: "TrendingUp",
-    features: ["SEO Optimization", "Google Business Setup", "Keyword Research", "Analytics Integration"]
+    features: ["Online Booking", "Service Menu", "Membership Plans", "Class Schedules"]
   },
   {
     id: 6,
-    title: "Website Maintenance & Support",
-    description: "Ongoing website management for small businesses. Regular updates, backups, security monitoring, and content changes at affordable monthly rates.",
+    title: "Education & Training",
+    description: "Educational websites for coaching classes, training institutes, preschools, daycares, and skill development centers. Include course listings, admissions, and online payment for fees.",
     icon: "Lightbulb",
-    features: ["Monthly Maintenance", "Security Updates", "Content Changes", "Technical Support"]
+    features: ["Course Listings", "Admissions Portal", "Fee Payment", "Student Dashboard"]
   }
 ];
 
@@ -170,36 +170,41 @@ export const faqs = [
   {
     id: 1,
     question: "How much does a website cost for a small business?",
-    answer: "Website costs for small businesses start from ₹15,000 for a basic informational website. For clinics and hospitals, prices range from ₹25,000-₹50,000. Hotel websites with booking systems cost ₹40,000-₹80,000. E-commerce websites for retail stores range from ₹50,000-₹2,00,000 depending on features. All prices include mobile-responsive design, basic SEO, and 3 months free support."
+    answer: "Website costs start from ₹15,000 for a basic informational website. Healthcare (clinics, hospitals, dental): ₹25,000-₹50,000. Hospitality (hotels, restaurants): ₹40,000-₹80,000. Professional services (law firms, real estate, accounting): ₹20,000-₹50,000. Wellness (salons, spas, gyms): ₹20,000-₹40,000. Education (coaching centers, training institutes): ₹25,000-₹50,000. E-commerce/Retail: ₹50,000-₹2,00,000. All prices include mobile-responsive design, basic SEO, and 3 months free support."
   },
   {
     id: 2,
-    question: "Do you create websites for medical clinics and hospitals?",
-    answer: "Yes! I specialize in creating professional websites for medical clinics, dental practices, hospitals, and healthcare providers. Features include online appointment booking, doctor profiles, patient portals, service listings, and Google Maps integration. All medical websites are mobile-friendly and HIPAA-compliant for patient data security."
+    question: "What types of businesses do you create websites for?",
+    answer: "I create websites for all types of small businesses: Healthcare (clinics, hospitals, dental, labs, pharmacies), Hospitality (hotels, restaurants, bakeries, catering), Professional Services (law firms, accounting, real estate, consulting, architects, interior designers, insurance, travel agencies), Wellness (salons, spas, gyms, yoga studios, physiotherapy), Education (coaching centers, training institutes, preschools, daycares), Retail (stores, e-commerce, jewelers, pharmacies, bookstores, electronics, furniture, pet shops), Financial (banks, NBFCs, financial advisors), and Home Services (construction, plumbing, electricians, pest control). Every business deserves a professional online presence!"
   },
   {
     id: 3,
-    question: "Can you build a hotel booking website with online payment?",
-    answer: "Absolutely! I create hotel and resort websites with integrated booking systems, room availability calendars, secure online payment processing, photo galleries, and customer review sections. Perfect for hotels, resorts, guest houses, and homestays. Includes WhatsApp integration for instant booking inquiries and mobile-responsive design."
+    question: "Can you build booking websites with online payment?",
+    answer: "Absolutely! I create booking-enabled websites for hotels, resorts, restaurants (table reservations), salons, spas, gyms (class bookings), doctors (appointment booking), coaching centers (course enrollment), and event planners. Features include availability calendars, secure online payment processing, automated confirmations, WhatsApp integration for instant inquiries, and customer review systems. All booking systems are mobile-friendly and easy to manage."
   },
   {
     id: 4,
     question: "How long does it take to build a website for my business?",
-    answer: "Timeline depends on website complexity: Basic business website (5-7 pages): 1-2 weeks. Clinic/Hospital website with appointments: 2-3 weeks. Hotel website with booking system: 3-4 weeks. E-commerce store: 4-6 weeks. Bank/Financial services website: 3-4 weeks. I provide regular updates throughout development and ensure timely delivery."
+    answer: "Timeline depends on website complexity: Basic business website (5-7 pages): 1-2 weeks. Healthcare/Professional services websites: 2-3 weeks. Hospitality websites with booking: 3-4 weeks. Wellness websites with booking: 2-3 weeks. Education websites with course management: 3-4 weeks. E-commerce stores: 4-6 weeks. Real estate websites with property listings: 3-4 weeks. I provide regular updates throughout development and ensure timely delivery for all industries."
   },
   {
     id: 5,
     question: "Will my website rank on Google?",
-    answer: "Yes! All websites include comprehensive SEO optimization to help you rank on Google for relevant searches. I optimize for industry-specific keywords and local search terms. Services include Google My Business setup, on-page SEO, mobile optimization, and fast loading speeds. Additional SEO packages available for competitive industries to achieve top rankings."
+    answer: "Yes! All websites include comprehensive SEO optimization to help you rank on Google. I optimize for industry-specific keywords (e.g., 'best salon near me', 'top law firm', 'clinic with online appointments', 'hotel booking', 'coaching classes for engineering'). Services include Google My Business setup, on-page SEO, mobile optimization, fast loading speeds, and local search optimization. Additional SEO packages available for competitive industries to achieve #1 rankings."
   },
   {
     id: 6,
     question: "Do you provide website maintenance after launch?",
-    answer: "Yes! I offer ongoing website maintenance packages for small businesses starting at ₹2,000/month. Includes regular backups, security updates, content changes, technical support, and performance monitoring. All clients get 3 months of free maintenance after website launch. Perfect for businesses that want peace of mind without technical hassles."
+    answer: "Yes! I offer ongoing website maintenance packages starting at ₹2,000/month. Includes regular backups, security updates, content changes (new services, menu updates, doctor schedules, class timings, product additions), technical support, and performance monitoring. All clients get 3 months of free maintenance after website launch. Perfect for busy business owners who want professional website management without technical hassles."
   },
   {
     id: 7,
-    question: "Can you help my retail store sell products online?",
-    answer: "Yes! I create complete e-commerce solutions for retail stores, boutiques, grocery stores, and wholesalers. Features include product catalog, shopping cart, secure payment gateway integration, order management, inventory tracking, and customer accounts. Perfect for businesses wanting to expand from offline to online sales and reach customers globally."
+    question: "Can you integrate payment gateways and third-party services?",
+    answer: "Yes! I integrate all major payment gateways (Razorpay, PayU, Paytm, Stripe, PayPal) for accepting online payments. Also integrate: WhatsApp Business API, Google Maps, social media, email marketing tools, CRM systems, accounting software, booking calendars, inventory management, and more. Perfect for e-commerce stores, hotels, clinics, salons, coaching centers, and any business accepting online payments or bookings."
+  },
+  {
+    id: 8,
+    question: "Do you create e-commerce websites for retail businesses?",
+    answer: "Yes! I create complete e-commerce solutions for all types of retail: fashion boutiques, jewelry stores, electronics shops, furniture stores, pharmacies, bookstores, pet shops, grocery stores, cosmetics, home decor, and wholesalers. Features include product catalog with search/filters, shopping cart, secure payment gateways, order management, inventory tracking, customer accounts, wishlists, reviews, and shipping integration. Perfect for expanding from offline to online sales."
   }
 ];

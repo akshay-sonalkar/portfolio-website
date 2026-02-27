@@ -11,7 +11,7 @@ const SEO = () => {
         "@id": "https://akshaysonalkar.com/#business",
         "name": "Akshay Sonalkar Web Development",
         "image": "https://akshaysonalkar.com/akshay-photo.jpg",
-        "description": "Professional website development services for small businesses including clinics, hotels, banks, restaurants, and retail stores worldwide.",
+        "description": "Professional website development services for all types of small businesses worldwide including healthcare (clinics, hospitals), hospitality (hotels, restaurants), professional services (law, real estate, accounting), wellness (salons, spas, gyms), education (coaching centers), retail (e-commerce, stores), financial services, and home services.",
         "url": "https://akshaysonalkar.com",
         "telephone": "+919448428031",
         "email": "sonalkarakshay.solapur@gmail.com",
@@ -87,24 +87,40 @@ const SEO = () => {
               "@type": "Offer",
               "itemOffered": {
                 "@type": "Service",
-                "name": "Clinic Website Development",
-                "description": "Professional websites for medical clinics and healthcare providers"
+                "name": "Healthcare Website Development",
+                "description": "Professional websites for clinics, hospitals, dental practices, diagnostic labs, and pharmacies"
               }
             },
             {
               "@type": "Offer",
               "itemOffered": {
                 "@type": "Service",
-                "name": "Hotel Website Development",
-                "description": "Booking-enabled websites for hotels and hospitality businesses"
+                "name": "Hotel & Hospitality Website Development",
+                "description": "Booking-enabled websites for hotels, resorts, restaurants, cafes, and catering services"
               }
             },
             {
               "@type": "Offer",
               "itemOffered": {
                 "@type": "Service",
-                "name": "Restaurant Website Development",
-                "description": "Online ordering and reservation systems for restaurants"
+                "name": "Professional Services Website Development",
+                "description": "Corporate websites for law firms, accounting firms, real estate agencies, consultants, and architects"
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Wellness & Fitness Website Development",
+                "description": "Booking-enabled websites for salons, spas, gyms, yoga studios, and physiotherapy centers"
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Education Website Development",
+                "description": "Educational websites for coaching centers, training institutes, preschools, and skill development centers"
               }
             },
             {
@@ -112,15 +128,23 @@ const SEO = () => {
               "itemOffered": {
                 "@type": "Service",
                 "name": "E-Commerce Website Development",
-                "description": "Complete online store solutions for retail businesses"
+                "description": "Complete online store solutions for retail, boutiques, wholesalers, and all types of product sellers"
               }
             },
             {
               "@type": "Offer",
               "itemOffered": {
                 "@type": "Service",
-                "name": "Bank Website Development",
-                "description": "Secure and professional websites for financial institutions"
+                "name": "Financial Services Website Development",
+                "description": "Secure websites for banks, NBFCs, insurance agencies, and financial advisors"
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Home Services Website Development",
+                "description": "Websites for interior designers, construction companies, plumbers, electricians, and pest control"
               }
             }
           ]

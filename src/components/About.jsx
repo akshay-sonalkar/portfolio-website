@@ -7,8 +7,8 @@ const About = () => {
   const values = [
     {
       icon: Target,
-      title: 'Small Business Specialist',
-      description: 'Expert in websites for clinics, hotels, banks, restaurants & retail stores worldwide'
+      title: 'All Industries Covered',
+      description: 'Expert websites for healthcare, hospitality, professional services, wellness, education, retail & more'
     },
     {
       icon: Zap,
@@ -44,16 +44,20 @@ const About = () => {
               <div className="space-y-4 text-lg text-slate-600 leading-relaxed">
                 <p>
                   With over 10 years of experience as a website developer, I specialize in creating
-                  professional, affordable websites for small businesses globally.
-                  Whether you run a <strong>medical clinic</strong>, <strong>hotel</strong>, <strong>bank</strong>,
-                  <strong>restaurant</strong>, or <strong>retail store</strong>, I help you establish a strong
-                  online presence that attracts more customers.
+                  professional, affordable websites for small businesses across all industries.
+                  Whether you run a <strong>clinic</strong>, <strong>hospital</strong>, <strong>hotel</strong>,
+                  <strong>restaurant</strong>, <strong>salon</strong>, <strong>spa</strong>, <strong>gym</strong>,
+                  <strong>law firm</strong>, <strong>real estate agency</strong>, <strong>bank</strong>,
+                  <strong>retail store</strong>, <strong>coaching center</strong>, or any other small business,
+                  I help you establish a strong online presence that attracts more customers.
                 </p>
                 <p>
-                  My expertise spans across healthcare website development for clinics and hospitals,
-                  hotel booking websites with online payment systems, e-commerce solutions for retail businesses,
-                  and secure banking websites. I understand the unique needs of small businesses and
-                  deliver solutions that are both cost-effective and results-driven.
+                  My expertise spans across <strong>healthcare</strong> (clinics, hospitals, dental, labs, pharmacies),
+                  <strong>hospitality</strong> (hotels, restaurants, cafes, catering), <strong>professional services</strong>
+                  (law, accounting, real estate, consulting, architecture), <strong>wellness</strong> (salons, spas, gyms, yoga),
+                  <strong>education</strong> (coaching centers, training institutes, preschools), <strong>retail & e-commerce</strong>
+                  (stores, wholesalers, online shops), and <strong>home services</strong> (interior design, construction, repairs).
+                  I understand the unique needs of each industry and deliver solutions that are both cost-effective and results-driven.
                 </p>
                 <p>
                   Having worked with leading MNCs and product companies, I now bring enterprise-level quality
