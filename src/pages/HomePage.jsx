@@ -9,6 +9,7 @@ import BookConsultation from '../components/BookConsultation';
 import FAQ from '../components/FAQ';
 import Contact from '../components/Contact';
 import Footer from '../components/Footer';
+import WhatsAppFloat from '../components/WhatsAppFloat';
 
 const HomePage = () => {
   return (
@@ -23,6 +24,7 @@ const HomePage = () => {
       <FAQ />
       <Contact />
       <Footer />
+      <WhatsAppFloat />
     </div>
   );
 };
