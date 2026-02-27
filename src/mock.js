@@ -2,58 +2,58 @@
 
 export const consultantInfo = {
   name: "Akshay Sonalkar",
-  title: "Full Stack Developer & Consultant",
-  tagline: "Enterprise-Level Expertise for Your Business Growth",
-  description: "Bringing 10+ years of experience from MNCs and product-based companies to help your business establish a powerful digital presence.",
+  title: "Website Developer for Small Business | Clinics, Hotels, Banks & More",
+  tagline: "Affordable Website Development for Small Businesses in Solapur & Maharashtra",
+  description: "Helping small businesses like clinics, hotels, banks, restaurants, and retail stores establish their online presence with professional, affordable websites. 10+ years of experience delivering results for local businesses across Maharashtra.",
   email: "sonalkarakshay.solapur@gmail.com",
   phone: "+91 9448428031",
   linkedin: "www.linkedin.com/in/akshay-sonalkar",
-  location: "Pune, Maharashtra, India",
+  location: "Solapur, Maharashtra, India",
   image: "/akshay-photo.jpg"
 };
 
 export const services = [
   {
     id: 1,
-    title: "Custom Website Development",
-    description: "Build responsive, high-performance websites tailored to your business needs. From landing pages to full-scale web applications.",
+    title: "Clinic & Hospital Website Development",
+    description: "Professional websites for medical clinics, dental practices, and hospitals in Solapur. Include appointment booking, doctor profiles, and patient information systems.",
     icon: "Code",
-    features: ["Responsive Design", "SEO Optimized", "Fast Loading", "Modern Tech Stack"]
+    features: ["Online Appointments", "Doctor Profiles", "Patient Portal", "Mobile Responsive"]
   },
   {
     id: 2,
-    title: "Website Management",
-    description: "Keep your website running smoothly with ongoing maintenance, updates, security patches, and performance optimization.",
+    title: "Hotel & Restaurant Websites",
+    description: "Attractive websites for hotels, resorts, and restaurants with online booking, menu display, and table reservations for businesses in Maharashtra.",
     icon: "Settings",
-    features: ["Regular Updates", "Security Monitoring", "Performance Optimization", "Content Updates"]
+    features: ["Online Booking", "Gallery & Menu", "Reservation System", "Google Maps Integration"]
   },
   {
     id: 3,
-    title: "E-Commerce Solutions",
-    description: "Launch your online store with secure payment integration, inventory management, and seamless customer experiences.",
+    title: "Retail & E-Commerce Stores",
+    description: "Complete online store solutions for retail shops, boutiques, and small businesses. Accept payments via Razorpay, PayU, and other Indian payment gateways.",
     icon: "ShoppingCart",
-    features: ["Payment Integration", "Product Management", "Order Tracking", "Analytics"]
+    features: ["Indian Payment Gateways", "Inventory Management", "Order Tracking", "WhatsApp Integration"]
   },
   {
     id: 4,
-    title: "Website Redesign",
-    description: "Modernize your existing website with fresh design, improved user experience, and enhanced functionality.",
+    title: "Bank & Financial Services Websites",
+    description: "Secure, professional websites for banks, NBFCs, insurance agencies, and financial advisors. HTTPS encryption and data security included.",
     icon: "Palette",
-    features: ["UI/UX Audit", "Modern Design", "Brand Alignment", "Conversion Focus"]
+    features: ["Secure HTTPS", "Loan Calculator", "Contact Forms", "Branch Locator"]
   },
   {
     id: 5,
-    title: "SEO & Performance",
-    description: "Boost your search rankings and site speed to attract more visitors and convert them into customers.",
+    title: "Local SEO & Google My Business",
+    description: "Get found by customers in Solapur and Maharashtra. Optimize your website for local search and rank higher on Google for your business type.",
     icon: "TrendingUp",
-    features: ["Keyword Research", "On-Page SEO", "Speed Optimization", "Analytics Setup"]
+    features: ["Local SEO", "Google Business Setup", "Google Maps Ranking", "Mobile Optimization"]
   },
   {
     id: 6,
-    title: "Consulting & Strategy",
-    description: "Get expert guidance on your digital strategy, technology choices, and roadmap to online success.",
+    title: "Website Maintenance & Support",
+    description: "Ongoing website management for small businesses. Regular updates, backups, security monitoring, and content changes at affordable monthly rates.",
     icon: "Lightbulb",
-    features: ["Tech Stack Planning", "Digital Strategy", "Competitive Analysis", "Growth Roadmap"]
+    features: ["Monthly Maintenance", "Security Updates", "Content Changes", "24/7 Support"]
   }
 ];
 
@@ -169,27 +169,37 @@ export const stats = [
 export const faqs = [
   {
     id: 1,
-    question: "What is your typical project timeline?",
-    answer: "Project timelines vary based on complexity. A landing page typically takes 1-2 weeks, while a full e-commerce site may take 4-6 weeks. I'll provide a detailed timeline during our initial consultation."
+    question: "How much does a website cost for a small business in Solapur?",
+    answer: "Website costs for small businesses in Solapur start from ₹15,000 for a basic informational website. For clinics and hospitals, prices range from ₹25,000-₹50,000. Hotel websites with booking systems cost ₹40,000-₹80,000. E-commerce websites for retail stores range from ₹50,000-₹2,00,000 depending on features. All prices include mobile-responsive design, basic SEO, and 3 months free support."
   },
   {
     id: 2,
-    question: "Do you provide ongoing support after launch?",
-    answer: "Yes! I offer comprehensive website management services including regular updates, security monitoring, performance optimization, and content updates. Plans are customized to your needs and budget."
+    question: "Do you create websites for medical clinics and hospitals in Maharashtra?",
+    answer: "Yes! I specialize in creating professional websites for medical clinics, dental practices, hospitals, and healthcare providers across Maharashtra. Features include online appointment booking, doctor profiles, patient portals, service listings, and Google Maps integration. All medical websites are mobile-friendly and HIPAA-compliant for patient data security."
   },
   {
     id: 3,
-    question: "What technologies do you use?",
-    answer: "I use modern, reliable technologies based on your needs - React, Next.js, WordPress, Shopify, and more. For payments, I integrate with Razorpay, PayU, and other Indian payment gateways. I'll recommend the best stack for your specific requirements."
+    question: "Can you build a hotel booking website with online payment?",
+    answer: "Absolutely! I create hotel and resort websites with integrated booking systems, room availability calendars, online payment through Razorpay/PayU, photo galleries, and customer review sections. Perfect for hotels, resorts, guest houses, and homestays in Solapur and Maharashtra. Includes WhatsApp integration for instant booking inquiries."
   },
   {
     id: 4,
-    question: "Can you help with an existing website?",
-    answer: "Absolutely! I can redesign, optimize, fix issues, or migrate your existing website. I'll audit your current site and provide recommendations for improvement tailored to the Indian market."
+    question: "How long does it take to build a website for my business?",
+    answer: "Timeline depends on website complexity: Basic business website (5-7 pages): 1-2 weeks. Clinic/Hospital website with appointments: 2-3 weeks. Hotel website with booking system: 3-4 weeks. E-commerce store: 4-6 weeks. Bank/Financial services website: 3-4 weeks. I provide regular updates throughout development and ensure timely delivery."
   },
   {
     id: 5,
-    question: "What are your rates?",
-    answer: "Rates vary based on project scope and complexity. Basic landing pages start from ₹15,000, while full e-commerce sites range from ₹50,000-₹2,00,000. After understanding your requirements, I'll provide a detailed proposal with transparent pricing. Both project-based and monthly retainer options available."
+    question: "Will my website rank on Google for local searches in Solapur?",
+    answer: "Yes! All websites include basic SEO optimization to help you rank on Google for local searches. I optimize for keywords like 'clinic in Solapur', 'best hotel in Solapur', etc. Services include Google My Business setup, local SEO optimization, mobile optimization, and fast loading speeds. Additional SEO packages available for competitive industries to rank #1 on Google."
+  },
+  {
+    id: 6,
+    question: "Do you provide website maintenance after launch?",
+    answer: "Yes! I offer ongoing website maintenance packages for small businesses starting at ₹2,000/month. Includes regular backups, security updates, content changes, technical support, and performance monitoring. All clients get 3 months of free maintenance after website launch. Perfect for businesses that want peace of mind without technical hassles."
+  },
+  {
+    id: 7,
+    question: "Can you help my retail store sell products online?",
+    answer: "Yes! I create complete e-commerce solutions for retail stores, boutiques, grocery stores, and wholesalers in Maharashtra. Features include product catalog, shopping cart, payment gateway (Razorpay, PayU, Paytm), order management, inventory tracking, and customer accounts. Perfect for businesses wanting to expand from offline to online sales."
   }
 ];

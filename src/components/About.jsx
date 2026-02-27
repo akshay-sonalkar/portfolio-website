@@ -7,23 +7,23 @@ const About = () => {
   const values = [
     {
       icon: Target,
-      title: 'Enterprise Experience',
-      description: '10+ years working with MNCs and leading product-based companies'
+      title: 'Small Business Specialist',
+      description: 'Expert in websites for clinics, hotels, banks, restaurants & retail stores in Maharashtra'
     },
     {
       icon: Zap,
-      title: 'Full Stack Expertise',
-      description: 'End-to-end development from architecture to deployment'
+      title: 'Local SEO Expert',
+      description: 'Get found on Google for local searches in Solapur and surrounding areas'
     },
     {
       icon: Users,
-      title: 'Client-Focused',
-      description: 'Your success is my priority. Clear communication every step of the way'
+      title: 'Affordable Pricing',
+      description: 'Quality websites starting from ₹15,000 with flexible payment plans for small businesses'
     },
     {
       icon: Award,
-      title: 'Quality Driven',
-      description: 'Enterprise-grade solutions with startup agility and affordability'
+      title: 'Complete Support',
+      description: 'Free 3-month support, training, and ongoing maintenance packages available'
     }
   ];
 
@@ -39,24 +39,27 @@ const About = () => {
           <div className="space-y-8">
             <div>
               <h2 className="text-4xl sm:text-5xl font-bold text-slate-900 mb-6">
-                Full Stack Developer & Consultant with 10+ Years of Excellence
+                Website Developer for Small Business in Solapur & Maharashtra
               </h2>
               <div className="space-y-4 text-lg text-slate-600 leading-relaxed">
                 <p>
-                  With over a decade of experience as a Full Stack Developer and Consultant, 
-                  I've had the privilege of working with leading MNCs and product-based companies, 
-                  delivering high-impact digital solutions that drive business growth.
+                  With over 10 years of experience as a website developer, I specialize in creating
+                  professional, affordable websites for small businesses across Solapur and Maharashtra.
+                  Whether you run a <strong>medical clinic</strong>, <strong>hotel</strong>, <strong>bank</strong>,
+                  <strong>restaurant</strong>, or <strong>retail store</strong>, I help you establish a strong
+                  online presence that attracts more customers.
                 </p>
                 <p>
-                  My journey spans diverse industries and technologies, from building scalable 
-                  enterprise applications to crafting seamless user experiences for startups. 
-                  This extensive experience with Fortune 500 companies and innovative product 
-                  firms has shaped my ability to understand complex business requirements and 
-                  translate them into robust, efficient solutions.
+                  My expertise spans across healthcare website development for clinics and hospitals,
+                  hotel booking websites with online payment systems, e-commerce solutions for retail businesses,
+                  and secure banking websites. I understand the unique needs of small businesses in India and
+                  deliver solutions that are both cost-effective and results-driven.
                 </p>
                 <p>
-                  Now, I bring this enterprise-level expertise to help small and medium businesses 
-                  establish a powerful online presence. Whether you're launching a new venture or 
+                  Having worked with leading MNCs and product companies, I now bring enterprise-level quality
+                  to local businesses at affordable prices. From <strong>Google SEO optimization</strong> to
+                  mobile-responsive design, from <strong>WhatsApp integration</strong> to online payment gateways
+                  like Razorpay - I provide complete digital solutions for your business growth. Whether you're launching a new venture or
                   scaling an existing business, you get the benefit of world-class development 
                   practices without the enterprise price tag.
                 </p>

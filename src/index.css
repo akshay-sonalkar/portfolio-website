@@ -111,14 +111,4 @@ code {
         border-top-color: inherit;
         border-bottom-color: inherit;
     }
-    
-    /* Hide Emergent badge */
-    div[style*="z-index: 2147483647"],
-    div[style*="position: fixed"][style*="bottom"],
-    iframe[src*="emergent"] {
-        display: none !important;
-        visibility: hidden !important;
-        opacity: 0 !important;
-        pointer-events: none !important;
-    }
 }
